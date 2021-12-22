@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+double results[10];
+int i = 0;
+double max = 0, min = 100, sum = 0, average;
+printf("成绩登记\n");
+for (; i < 10; i++)
+{
+printf("请输入第%d个学生的成绩：", i + 1);
+scanf_s("%lf", &results[i]);
+if (max < results[i])
+{
+max = results[i];
+}
+if (min > results[i])
+{
+min = results[i];
+}
+sum += results[i];
+}
+average = sum / i;
+printf("最高分为%lf，最低分为%lf，平均分为%lf", max, min, average);
+return 0;
+}
+//this parogram can sort the numbers on array

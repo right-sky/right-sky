@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+double results[10];
+int i = 0;
+printf("成绩登记\n");
+for (; i<10;i++)
+{
+printf("请输入第%d个学生的成绩:", i + 1);
+scanf_s("%lf", &results[i]);
+}
+printf("成绩如下");
+for (i = 0; i < 10; i++)
+{
+printf("第%d个学生的成绩为%lf\n",i,results[i]);
+}
+return 0;
+}
+//this program aimed to input 10 numbers for output it
+//we can know how to use the array in program C

@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @right-sky,if you from China,you can call me 富贵儿
 - 👀 I’m interested in everything，  I love everyone！！！！
-- 🌱 I’m currently learning C
+- 🌱 I’m currently learning C，JavaEE，Python
 - 📫 How to reach me ..you can add  QQ(2649648213) or ins(fugeralter)
 
 <!---
